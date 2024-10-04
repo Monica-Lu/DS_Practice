@@ -7,7 +7,7 @@ int main(int argc, char* argv[]) {
 
     std::list<int> intList;
 
-    for (int i = 1; i < argc; ++i) {
+    for (int argument = 1; argument < argc; ++argument) {
         int temp = std::atoi(argv[i]);
         intList.push_back(temp);
     }
